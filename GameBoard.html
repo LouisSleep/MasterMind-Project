@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="Graphicloads-Flat-Finance-Global.ico" type="image/x-icon">
+    <title>MasterMind</title>
+</head>
+<body>
+    <nav class="navigation">
+        <h1>MasterMind</h1>
+
+        <!-- <ul class="NAVBAR">
+            <li class="NAVBAR"><a href="MasterMindCorrection.html" class="NAVBAR">Accueil</a></li>
+            <li class="NAVBAR"><a href="RulesMasterMind.html" class="NAVBAR">Régles du Jeu</a></li>
+        </ul> -->
+        <div class="JOURNUIT">
+          <div class="DAY"><button id="day" onclick="DAYNIGHT(buttonClick)"></button></div>
+          <div class="NIGHT"><button id="night" onclick="Night(buttonClick)"></button></div>
+
+        </div>
+
+        <div id="LifeCount">
+            
+        
+          <p id="countlives"> Count <b id="count" >10</b>/10</p> 
+          
+          </div>
+        
+    </nav>
+    
+
+    <main>
+        
+
+        <div class="bloc">
+            <h2 class="h21">Colors 0</h2>
+            <div class="selectNum1">
+                
+              <select class="select1">
+                <option class="choixutilisateur" value="#">Choissir une couleur</option>
+                <option class="choixutilisateur1" value="purple">purple</option>
+                <option class="choixutilisateur2" value="green">green</option>
+                <option class="choixutilisateur3" value="blue">blue</option>
+                <option class="choixutilisateur4" value="pink">pink</option>
+                <option class="choixutilisateur5" value="red">red</option>
+              </select>
+            </div>
+
+            <h2 class="h22">Colors 1</h2>
+            <div class="selectNum2">
+                <select class="select2">
+                  <h2>choix</h2>
+                  <option class="choixutilisateur" value="#">Choissir une couleur</option>
+                  <option class="choixutilisateur1" value="purple">purple</option>
+                  <option class="choixutilisateur2" value="green">green</option>
+                  <option class="choixutilisateur3" value="blue">blue</option>
+                  <option class="choixutilisateur4" value="pink">pink</option>
+                  <option class="choixutilisateur5" value="red">red</option>
+                </select>
+              </div>
+              <h2 class="h23">Colors 2</h2>
+              <div class="selectNum3">
+                <select class="select3">
+                  <h2>choix</h2>
+                  <option class="choixutilisateur" value="#">Choissir une couleur</option>
+                  <option class="choixutilisateur1" value="purple">purple</option>
+                  <option class="choixutilisateur2" value="green">green</option>
+                  <option class="choixutilisateur3" value="blue">blue</option>
+                  <option class="choixutilisateur4" value="pink">pink</option>
+                  <option class="choixutilisateur5" value="red">red</option>
+                </select>
+              </div>
+              <h2 class="h24">Colors 3</h2>
+              <div class="selectNum4">
+                <select class="select4">
+                  <h2>choix</h2>
+                  <option class="choixutilisateur" value="#">Choissir une couleur</option>
+                  <option class="choixutilisateur1" value="purple">purple</option>
+                  <option class="choixutilisateur2" value="green">green</option>
+                  <option class="choixutilisateur3" value="blue">blue</option>
+                  <option class="choixutilisateur4" value="pink">pink</option>
+                  <option class="choixutilisateur5" value="red">red</option>
+                </select>
+              </div>
+              
+              
+          </div>
+          <div class="GamesButtons">
+            <div class="button"><button id="Go" onclick="compteur()" >Go!</button></div>
+                
+            <div class="ReLoad"><button id="ReLoad" onclick="ReLoad()" >Relancer !</button></div>
+          </div>
+
+        
+        <div class="commentaires">
+                <div id="Commentaire">
+                
+                <p>Couleurs biens placées ok pour toi </p> 
+                <p id="Commentaire0">
+                   
+                </p>
+                <br>
+            </div>
+
+            <div id="Commentaire11">
+            
+                <p>Couleurs correctes mais mal placées </p> 
+                <p id="Commentaire1" > </p>
+                
+            </div>
+            
+            <div id="Commentaire22">
+              
+               <p>Couleurs qui correspondent pas </p> 
+               <p id="Commentaire2">  </p>
+                
+            </div>
+
+           <div class="resultcolors">
+              <p class="pcolors"></p>
+           </div>
+        </div>
+   
+        
+    </main>
+
+</body>
+
+<script type="text/javascript" src="MasterMindCorrection.js">
+</script>
+
+</html>

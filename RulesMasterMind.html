@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="Graphicloads-Flat-Finance-Global.ico" type="image/x-icon">
+
+    <title>Régles du Jeu</title>
+</head>
+<body>
+
+    <nav class="navigation">
+        <h1>MasterMind</h1>
+
+        <ul class="NAVBAR">
+            <li class="NAVBAR"><a href="MasterMindCorrection.html" class="NAVBAR">Accueil</a></li>
+            <li class="NAVBAR"><a href="RulesMasterMind.html" class="NAVBAR">Régles du Jeu</a></li>
+        </ul>
+        <div class="JOURNUIT">
+            <div class="DAY"><button id="day" onclick="DAYNIGHT(buttonClick)"></button></div>
+            <div class="NIGHT"><button id="night" onclick="Night(buttonClick)"></button></div>
+  
+          </div>
+    </nav>
+
+    <main>
+        <div id="rules">
+            <p class="rulesMasterMindMinimal">
+                <h3>Règles Minimales</h3>
+                <br>
+                L'ordinateur doit trouver une séquence aléatoire de 4 couleurs (pouvant se répéter) parmi un choix de 5 couleurs différentes.
+                <br>
+                L'utilisateur doit pouvoir proposer une séquence de 4 couleurs.
+                <br>
+                L'ordinateur doit pouvoir comparer sa séquence à celle de l'utilisateur pourdéterminer le nombre de couleurs bien placées et de couleurs mal placées.
+                <br>
+                L'ordinateur doit pouvoir fournir le résultat de la comparaison à l'utilisateur.
+                <br>
+                L'ordinateur doit pouvoir déclarer la victoire de l'utilisateur.
+                <br>
+                Les couleurs sont représentées par une lettre
+            </p>
+            <br>
+            <p class="rulesMasterMindBonus">
+                <h3>Règles Bonus</h3>
+                <br>
+                Pour pousser plus loin le projet, vous pouvez :
+                <br>
+                Utiliser des blocs de couleurs pour représenter la séquence.
+                <br>
+                Limiter à 10 essais pour l'utilisateur.
+                <br>
+                Utiliser des boutons pour construire la séquence de l'utilisateur (et permettre de
+                vider la séquence).
+                <br>
+                Calculer le nombre d'essai avant de trouver.
+                <br>
+                Ajouter un bouton pour lancer une nouvelle partie.
+                <br>
+                Ajouter un mode jour/nuit.
+                <br>
+                Construire un plateau de jeu.
+                <br>
+                Rendre la page responsive pour pouvoir jouer sur smartphone.
+
+            </p>
+        </div>
+
+    </main>
+    
+</body>
+<script src="MasterMindCorrection.js"></script>
+</html>
